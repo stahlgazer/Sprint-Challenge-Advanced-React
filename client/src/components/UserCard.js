@@ -24,7 +24,7 @@ export default function UserCard(props) {
           <Card inverse color="info" key={data.id}>
             <CardBody>
               <CardTitle>Player: {data.name}</CardTitle>
-              <CardText>Country: {data.country}</CardText>
+              <CardText data-testid="country">Country: {data.country} </CardText>
               <CardText>Popularity Rank: {data.id + 1}</CardText>
               <CardText>Search Interest: {data.searches}</CardText>
             </CardBody>
