@@ -30,7 +30,7 @@ class App extends React.Component {
       <header className="App-header">
       Women's World Cup
       </header>
-      <UserCard user={this.state.user}/>
+      <UserCard user={this.state.user} data-testid="card"/>
     </div>
   );
 }

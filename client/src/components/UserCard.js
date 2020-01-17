@@ -12,7 +12,7 @@ export default function UserCard(props) {
   };
   return (
       <div>
-    <div className="darkbtn">
+    <div className="darkdiv">
       <Button data-testid="dark"
         onClick={toggleMode}
         className={darkMode ? "toggle toggled" : "toggle"}
