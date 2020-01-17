@@ -34,6 +34,7 @@
 .cards {
   width:50%;
   margin:0 auto;
+  padding:2% 0%;
 }
 
 .dark-mode {
@@ -43,4 +44,9 @@
 
 .darkmode {
   margin:0 right;
+}
+
+.darkbtn {
+  text-align:left;
+  padding:2% 2%;
 }

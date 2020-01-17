@@ -11,13 +11,14 @@ export default function UserCard(props) {
     setDarkMode(!darkMode);
   };
   return (
-    <div>
+      <div>
+    <div className="darkbtn">
       <Button
         onClick={toggleMode}
         className={darkMode ? "toggle toggled" : "toggle"}
       >
         Dark Mode
-      </Button>
+      </Button></div>
       <div className="cards">
         {props.user.map(data => (
           <Card inverse color="info" key={data.id}>
